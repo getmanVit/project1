@@ -1,20 +1,40 @@
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+"use strict";
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: [],
-    actors: [],
-    genres: {},
-    privat: false
-};
+// 1
+// function calc (a, b) {
+//     return (a + b);
+// }
+// const a = +prompt ('введите первое число'),
+//       b = +prompt ('введите второе число');
 
-const a = prompt('Один из последних просмотренных фильмов?'),
-      b = prompt('На сколько оцените его?'),
-      c = prompt('Один из последних просмотренных фильмов?'),
-      d = prompt('На сколько оцените его?');
+// alert (calc (a, b));   
 
-personalMovieDB.movies[a]=b;
-personalMovieDB.movies[c]=d;
 
-console.log(personalMovieDB);
+// 2
+// const calc = (a, b) => a + b;
 
+// const a = +prompt ('введите первое число'),
+//       b = +prompt ('введите второе число');
+
+// alert (calc (a, b));   
+
+
+// 3
+// let calc = function (a, b) {
+//     return (a + b);
+// };
+// const a = +prompt ('введите первое число'),
+//       b = +prompt ('введите второе число');
+// alert (calc (a, b)); 
+
+
+// const personalMovieDB = {
+//     firstNum: {},
+//     secondNum: {},
+//     Summ: {},
+// };
+// personalMovieDB.firstNum = a;
+// personalMovieDB.secondNum = b;
+// personalMovieDB.Summ = calc(a, b);
+
+// console.log(personalMovieDB);
